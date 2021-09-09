@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+    background-color: rgb(126, 39, 126);
+    height: 11vh;
+    min-height: 120px;
+    color: white;
+}
+
+header>.wrapper{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    padding-top: 10px;
+}
+header>.wrapper>.logo-container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 40%;
+    grid-template-rows: 50% 50%;
+    grid-column: 1;
+    flex-direction: column;
+    margin-bottom: auto;
+    align-items: center;
+}
+header>.wrapper>.logo-container>.hero-text{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    font-size: 2.9rem;
+    font-family: 'courgette', cursive;
+    margin-top: auto;
+}
+header>.wrapper>.logo-container>.sub-hero-text{
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    font-size: 1rem;
+    font-family: 'courgette', cursive;
+    justify-self: right;
+    margin-bottom: auto;
+    position: relative;
+}
+header>.wrapper>.nav-container{
+    grid-column: 2;
+}
+header>.wrapper>.nav-container>nav{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+header>.wrapper>.nav-container>nav>ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+}
+header>.wrapper>.nav-container>nav>ul>li{
+    margin-bottom: 20px;
+}
+header>.wrapper>.nav-container>nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 5px 20px;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+header>.wrapper>.nav-container>nav>ul>li>a:hover{
+    background-color: white;
+    color: rgb(126, 39, 126);
+    transition: 0.4s;
+}
+header>.wrapper>.nav-container>nav>ul>li>a.current{
+    background-color: white;
+    color:rgb(126, 39, 126);
+}
+header>.wrapper>.information-container{
+    grid-column: 3;
+    display: flex;
+    font-family: 'courgette', cursive;
+    justify-content: right;
+    align-items: center;
+}
