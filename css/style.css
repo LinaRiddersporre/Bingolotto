@@ -105,3 +105,28 @@ header>.wrapper>.information-container{
     }
 }
 
+
+form {
+    padding-left: 50px;
+}
+
+h1 {
+    padding: 2rem 4rem;
+    background-color: whitesmoke;
+}
+
+#nobingo {
+    display: block;
+    float: right;   
+    margin: 7rem 10rem 2rem 0rem;
+    
+}
+
+input{
+    margin: .7rem .4rem .2rem 0;
+}
+
+.knapp{
+    border-radius: 5px;
+    padding: .5rem 1rem;
+}
