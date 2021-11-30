@@ -31,27 +31,20 @@
             </section>
         </div>
     </header>
-    <main>
+    <main class="booking-main">
+        <div class="left-content">
+            <form action="mailto:linariddersporre@gmail.com" method="post" enctype="multipart/form-data" name="EmailForm">
+                <input type="text" name="name" placeholder="Namn">
+                <br>
+                <input type="checkbox" name="food">
+                <label for="food">Äter här</label>
+                <br>
+                <input type="text" name="allergy" placeholder="Allergier">
+                <br>
+                <input type="submit" class="knapp" value="Anmäl mig">
+            </form>
+        </div>
         <img src="img/bingolotto.jpg" alt="Bingolotto logotyp" id="nobingo">
-        
-        <h1>Bokningsformulär:</h1>
-        <form action="mailto:linariddersporre@gmail.com" method="post" enctype="multipart/form-data" name="EmailForm">
-            <label for="anem">Namn</label>
-            <input type="text" name="name">
-            <br>
-            <input type="checkbox" name="food">
-            <label for="food">Äter här</label>
-            <br>
-            <input type="checkbox" name="nofood">
-            <label for="nofood">Äter innan ankomst</label>
-            <br>
-            <label for="allergy">Allergier?</label>
-            <input type="text" name="allergy">
-            <br>
-            <input type="submit" class="knapp" value="Submit">
-        </form>
-        
-
     </main>
     <footer>
         
