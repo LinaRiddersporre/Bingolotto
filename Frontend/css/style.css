@@ -144,13 +144,6 @@ header>.wrapper>.information-container{
     padding-bottom: 2rem;
 }
 
-.booking-main {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
 .home-main {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -162,16 +155,7 @@ h3 {
 }
 
 h1 {
-    margin-left: 1rem;
-}
-
-input{
-    margin: .7rem .4rem .2rem 0;
-}
-
-.knapp{
-    border-radius: 5px;
-    padding: .5rem 1rem;
+    padding: 2rem 4rem;
 }
 
 .information{
